@@ -2,36 +2,43 @@
   <html>
     <head>
       <title>Eugene's Portfolio</title>
+      <meta charset="utf-8">
       <body>
         <link rel = "stylesheet" type = "text/css" href = "../css/portfolio.css" />
-
+	<script src="../javascript/form.js"></script>
 	<h1>Akan</h1>
- 	<p>Akan names are derived from Ghanian culture. Frequently in Ghana, 
+ 	<p>Akan names are derived from Ghanaian culture. Frequently in Ghana, 
 	   children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 	   Here are Ghanian day names.
-	                   Male
-			   Sunday: Kwasi
-			   Monday: Kwadwo
-			   Tuesday: Kwabena
-			   Wednesday: Kwaku
-			   Thursday:  Yaw
-			   Friday: Kofi
-			   Saturday: Kwame
-			   
-			   Female
-			   Sunday: Akosua
-			   Monday: Adwoa
-			   Tuesday: Abenaa
-			   Wednesday: Akua
-			   Thursday:  Yaa
-			   Friday: Afua
-			   Saturday: A
-	
-	</p>
 
+
+	   <p>             Male                    </p>
+	   <p>		   Sunday: Kwasi           </p>
+	   <p>  	   Monday: Kwadwo          </p>
+	   <p>             Tuesday: Kwabena        </p>
+           <p>	           Wednesday: Kwaku        </p>
+           <p>             Thursday:  Yaw          </p>
+           <p>             Friday: Koffi            </p>
+           <p>             Saturday: Kwame         </p>
+          
+
+	   <p>             Female                  </p>
+           <p>             Sunday: Akosua          </p>
+           <p>             Monday: Adwoa           </p>
+	   <p>             Tuesday: Abenaa         </p>
+	   <p>             Wednesday: Akua         </p>
+	   <p>             Thursday:  Yaa          </p>
+	   <p>             Friday: Afua            </p>
+	   <p>             Saturday:               </p>
+
+	   <form name ="names">	
 	<label>Male</label>
-	<input type="radio"><input>
+	<input type="radio">
+	</br></br>
+
 	<label>Female</label>
+	 <input type="radio">
+		 </br></br>
 	<label>Day</label>
 	<select id="names">Day
 		 <option value="Monday">Monday</option>
@@ -40,6 +47,8 @@
                  <option value="Thursday">Thursday</option>
                  <option value="Friday">Friday</option>
 		 </select>
+		  <input ></input>
+
         <label>Month</label>
         <select id="names">Day
                  <option value="January">January</option>
@@ -56,6 +65,8 @@
 		 <option value="December">December</option>
 		 
                  </select>
+		  <input ></input>
+
         <label>Year</label>
 	<select>
 	         <option value="1990">1990</option>
@@ -69,8 +80,8 @@
                  <option value="Thursday">1998</option>
                  <option value="Friday">1999</option>
 		 </select>
-
-		 <button>Submit</button>
-
+ <input ></input>
+		 <input type="button" value="Process" onClick = "myFunction()">Submit</button>
+		 </form>
   </body>
 </html>
