@@ -1,70 +1,54 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <title>Eugene's Portfolio</title>
-      <meta charset="utf-8">
-      <body>
-        <link rel = "stylesheet" type = "text/css" href = "form.css" />
-	<script src="form.js"></script>
-	<h1>Akan</h1>
- 	<p>Akan names are derived from Ghanaian culture. Frequently in Ghana, 
-	   children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-	   Here are Ghanian day names.
 
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><strong>Akan Naming System</strong></h1>
+    <div class="landing-page">
+        
+    </div>
+    <p>The <em> Akan people</em> of Ghana frequently name their children after the day of the week they 
+        were born and the order in which they were born. These <em>"day names"</em> have further 
+        meanings concerning the soul and character of the person. Middle names have 
+        considerably more variety and can refer to their birth order, twin status, or an 
+        gancestor's middle name.</p>
+      
+        <h2><strong> Calculation</strong></h2>
+        
+        <p>This calculator will help in finding the day you were born in akan</p>
+        <p>The names are either</p>
+        <ul>
+            <li>male</li>
+            <li>female</li>
+        
+            
+        </ul>
+        
+            
+        
+      <p>Know you akan name here</p>  
+    
 
-	
-	   <form name ="names">	
-	<label>Male</label>
-	<input type="radio">
-	</br></br>
+    
+    <form>
+        
+        <label for= "date"> <strong> date of Birth:</strong></label><br>
 
-	<label>Female</label>
-	 <input type="radio">
-		 </br></br>
-	<label>Day</label>
-	<select id="names">Day
-		 <option value="Monday">Monday</option>
-		 <option value="Tuesday">Tuesday</option>
-		 <option value="Wednesday">Wednesday</option>
-                 <option value="Thursday">Thursday</option>
-                 <option value="Friday">Friday</option>
-		 </select>
-		  <input ></input>
+        <input type ="date" id="date"> <br>
+        <label for ="gender">Gender:</label>
+        <select name ="gender" id= "gender">
+            <option value ="male">Male</option>
+            <option value ="female">Female</option>
 
-        <label>Month</label>
-        <select id="names">Day
-                 <option value="January">January</option>
-                 <option value="February">February</option>
-                 <option value="March">March</option>
-                 <option value="April">April</option>
-                 <option value="May">May</option>
-                 <option value="June">June</option>
-		 <option value="July">July</option>
-		 <option value="August">August</option>
-		 <option value="September">September</option>
-		 <option value="October">October</option>
-		 <option value="November">November</option>
-		 <option value="December">December</option>
-		 
-                 </select>
-		  <input ></input>
-
-        <label>Year</label>
-	<select>
-	         <option value="1990">1990</option>
-                 <option value="1991">1991</option>
-                 <option value="1992">1992</option>
-                 <option value="1993">1993</option>
-                 <option value="1994">1994</option>
-		 <option value="1995">1995</option>
-                 <option value="Tuesday">1996</option>
-                 <option value="Wednesday">1997</option>
-                 <option value="Thursday">1998</option>
-                 <option value="Friday">1999</option>
-		 </select>
- <input ></input>
-		 <input type="button" value="Process" onclick="location.href='result.html';">
-
-		 </form>
-  </body>
+        </select><br><br>
+        <button type ="submit" onclick = "nameCalculator()">submit</button>
+    </form>
+    <script src="script.js"></script>
+    
+</body>
 </html>
