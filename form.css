@@ -39,23 +39,24 @@ h4
 
 .submit
 {
- border: 5px solid black;
+
  background-color:darkblue;
 }
 
 .date
 {
- border: 0px solid black;
+
  background-color:darkblue;
 }
 
 .gender
 {
- border: 0px solid black;
+
  background-color:darkblue;
 }
 
 #submit_button{
+    background-color:darkblue;
     position: absolute;
     left: 100px;
     top: 850px;
