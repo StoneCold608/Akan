@@ -54,7 +54,7 @@ h4
  border: 5px solid black;
  background-color:darkblue;
 }
-#submit
+.submit.btn_submit
 {
  position:absolute;
  right:50px;
