@@ -55,7 +55,7 @@ h4
  background-color:darkblue;
 }
 
-#submit_button{
+submit_button{
     position: absolute;
     left: 100px;
     text-shadow: 2px 2px 4px black;
