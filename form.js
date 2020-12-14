@@ -1,4 +1,4 @@
-function nameCalculator()
+function name_calculator()
 {
     d = document.getElementById('date').value;
     date = d.split('-')
