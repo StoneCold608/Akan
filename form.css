@@ -51,7 +51,9 @@ h4
 
 .gender
 {
-
+  
+ position: absolute;
+ left: 50px;
  background-color:darkblue;
 }
 
