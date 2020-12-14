@@ -1,4 +1,4 @@
-function name_calculator()
+function akan_name_calculator()
 {
     d = document.getElementById('date').value;
     date = d.split('-')
