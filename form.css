@@ -1,0 +1,67 @@
+
+body
+{
+ border: 5px solid black;
+ background-color:lightblue;
+
+}
+
+h1
+{
+  border-style: rounded;
+  font-family: Arial;
+  margin-left:20px;
+  size:20px;
+}
+
+h2
+{
+  font-family: Arial;
+  border-style: rounded;
+  color:black;
+  margin-left:20px;
+}
+
+h3
+{
+  font-family: Arial;
+  border-style: rounded;
+  color:black;
+  margin-left:20px;
+}
+
+h4
+ {
+   border-style: rounded;
+   color:black;
+   font-family: Arial;
+   margin-left:20px;
+ }
+
+.submit
+{
+
+ background-color:darkblue;
+}
+
+.date
+{
+
+ background-color:darkblue;
+}
+
+.gender
+{
+  
+
+ background-color:darkblue;
+}
+
+#submit_button{
+   
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    text-shadow: 2px 2px 4px black;
+}
+
