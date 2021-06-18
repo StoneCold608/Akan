@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 MIT License
 
 Copyright (c) 2020 EugeneMaz10
@@ -21,6 +22,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 =======
+=======
+>>>>>>> 9d81b289d4c4a8c322b1400e1c5405784e5ea83f
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -695,4 +698,7 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+<<<<<<< HEAD
+>>>>>>> 9d81b289d4c4a8c322b1400e1c5405784e5ea83f
+=======
 >>>>>>> 9d81b289d4c4a8c322b1400e1c5405784e5ea83f
