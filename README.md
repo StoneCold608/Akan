@@ -4,7 +4,9 @@ Author(s) information. - Eugene is a Software and Computer Networking individual
 Setup instructions - Github pages site<br />
 Technologies used. - HTML,CSS and Javascript<br />
 Contact information - eugenengaira863@gmail.com<br />
-License and Copyright information - GNU License<br />
+License and Copyright information - End User Licence Agreement (EULA).
+
+<br />
 
 
 
