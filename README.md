@@ -6,5 +6,5 @@ Technologies used. - HTML,CSS and Javascript<br />
 Contact information - eugenengaira863@gmail.com<br />
 License and Copyright information - GNU License<br />
 
-NOTE:ADDITIONAL VERSIONS AND COMMITS WILL BE IMPLEMENTED.THIS IS NOT THE FINAL PRODUCT.
+
 
